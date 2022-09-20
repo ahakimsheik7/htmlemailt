@@ -1,15 +1,16 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1 Transtional//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
-<html lang="en">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>News Paper</title>
-    <link rel="stylesheet" href="style.css">
+    <meta name="color-scheme" content="light dark">
+    <meta name="supported-color-schemes" content="light dark">
+	<title>News Letter</title>
     <style type="text/css">
         body{
             margin: 0;
-            background-color: #cccc;
+            background-color: #ffffff;
         }
         table{
           border-spacing: 0;
@@ -23,7 +24,7 @@
         .wrapper{
           width: 100%;
           table-layout: fixed;
-          background-color: #cccc;
+          background-color: #dedbb6;
           padding-bottom: 60px;
         }
         .main{
@@ -50,7 +51,7 @@
         }
         .button{
           background-color:#289dcf;
-          color: #fff;
+          color: #ffffff;
           text-decoration: none;
           padding: 12px 20px;
           font-weight: bold;
@@ -59,14 +60,15 @@
         .three-columns{
           text-align: center;
           font-size: 0;
-          padding: 15px 0 20px;
-        }.three-columns .column{
+          padding: 35px 0 20px;
+        }
+        .three-columns .column{
           width: 100%;
           max-width: 200px;
           display: inline-block;
           vertical-align: top;
-        }
 
+        }
     </style>
 </head>
 <body>
@@ -120,9 +122,8 @@
               <tr>
                 <td style="text-align:center; padding:15px;">
 
-                  <p style="font-size: 20px; font-weight:bold; color:#ffff;"> Spring Semester<strong style="color:#289dcf;"> Courses</strong></p>
-                  <p style="font-size: 15px; padding:5px 0 15px; line-height:23px; color:#ffff;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Error ab neque alias harum, reiciendis velit facere fuga dolorum reprehenderit necessitatibus nostrum, iure nam quaerat sunt praesentium exercitationem maxime porro voluptatem.</p>
-                  <a href="#" class="button">View More Courses</a>
+                  <p style="font-size: 20px; font-weight:bold; color:#ffffff;"> Spring Semester<strong style="color:#289dcf;"> Courses</strong></p>
+                  <p style="font-size: 15px; padding:5px 0 15px; line-height:23px; color:rgb(144, 154, 176);">Lorem ipsum dolor sit amet consectetur adipisicing elit. Error ab neque alias harum, reiciendis velit facere fuga dolorum reprehenderit necessitatibus nostrum, iure nam quaerat sunt praesentium exercitationem maxime porro voluptatem.</p>
                 </td>
               </tr>
             </table>
@@ -135,19 +136,57 @@
         <!--Three Column Section-->
         <tr>
           <td>
-            <table width="100%">
+            <table widht="100%">
               <tr>
-                <td style="text-align: center; padding:15px;">
-                  <p style="font-size:20px; font-weight:bold">Qur'an <strong style="color:#a6dbee;">Courses</strong></p>
-                </td>
+                <table class="three-columns">
+                  <table class="column">
+                    <tr>
+                      <td class="padding">
+                        <table class="content">
+                          <tr>
+                            <td>
+                              <a href="#"><img src="images/online.png" alt="" width="90px" style="max-width: 90px;"></a>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <p style="font-weight: bold; font-size:17px;">Qur'an Classes</p>
+                              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, temporibus aperiam voluptatibus harum eveniet aliquam ea, sint nulla assumenda amet incidunt, eius eaque blanditiis porro nisi. Odio alias unde maiores.</p>
+                            </td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                  </table>
+                  <table class="column">
+                    <tr>
+                      <td class="padding">
+                        <table class="content">
+                          <tr>
+                            <td>
+                              <a href="#"><img src="images/online.png" alt="" width="90px" style="max-width: 90px;"></a>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <p style="font-weight: bold; font-size:17px;">Qur'an Classes</p>
+                              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, temporibus aperiam voluptatibus harum eveniet aliquam ea, sint nulla assumenda amet incidunt, eius eaque blanditiis porro nisi. Odio alias unde maiores.</p>
+                            </td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                  </table>
+                  
+                  
+                </table>
               </tr>
-
             </table>
           </td>
         </tr>
         <!--Blue Border-->
         <tr>
-          <td height="2" style="background-color: #a6dbee;"></td>
+            <td height="2" style="background-color: #a6dbee;"></td>
         </tr>
         <!--Two Column Section-->
         <tr>
