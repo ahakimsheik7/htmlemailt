@@ -1,213 +1,93 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<!DOCTYPE html>
+<html lang="en">
 <head>
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="color-scheme" content="light dark">
-    <meta name="supported-color-schemes" content="light dark">
-	<title>News Letter</title>
-    <style type="text/css">
-        body{
-            margin: 0;
-            background-color: #ffffff;
-        }
-        table{
-          border-spacing: 0;
-        }
-        td{
-          padding: 0;
-        }
-        img{
-          border: 0;
-        }
-        .wrapper{
-          width: 100%;
-          table-layout: fixed;
-          background-color: #dedbb6;
-          padding-bottom: 60px;
-        }
-        .main{
-          width: 100%;
-          background-color:rgba(17,17,17,255);
-          margin: 0;
-          max-width: 600px;
-          border-spacing: 0;
-          font-family: sans-serif;
-          color: #4a4a4a;
-        }
-        .two-columns{
-          text-align: center;
-          font-size: 0;
-        }
-        .two-columns .column{
-          width: 100%;
-          max-width: 300px;
-          display: inline-block;
-          vertical-align: top;
-        }
-        .icons{
-          background-color: rgba(17,17,17,255);
-        }
-        .button{
-          background-color:#289dcf;
-          color: #ffffff;
-          text-decoration: none;
-          padding: 12px 20px;
-          font-weight: bold;
-          border-radius: 5px;
-        }
-        .three-columns{
-          text-align: center;
-          font-size: 0;
-          padding: 35px 0 20px;
-        }
-        .three-columns .column{
-          width: 100%;
-          max-width: 200px;
-          display: inline-block;
-          vertical-align: top;
-
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HTML Table Practise</title>
+  <style>
+    body{background: gray;}
+    table{
+      background: white;
+      width: 600px;
+      margin: 0;
+      text-align: center;
+      border: 1px solid black;
+      border-spacing: 0;
+    }
+    th,td{
+      border: 1px solid black;
+    }
+  </style>
 </head>
 <body>
-    <center class="wrapper">
-      <table class="main" width="100%">
-        <!--Blue Border-->
-        <tr>
-          <td height="8" style="background-color: #289dcf;"></td>
-        </tr>
-        <!--Logo Section-->
-        <tr>
-          <td style="padding: 14px 0 4px;">
-            <table width="100%">
-              <tr>
-                <td class="two-columns">
-                  <table class="column">
-                    <tr>
-                      <td style="padding: 0 62px 10px;">
-                        <a href="#"><img src="images/logo3.png" alt="sufiacademy" width="200px;"></a>
-                      </td>
-                    </tr>
-                  </table>
-                  <table class="column">
-                    <tr>
-                      <td style="padding: 10px 68px;">
-                        <a href="#" class="icons"><img src="images/instgram3.jpeg" alt="sufiacademy" width="32px;"></a>
-                        <a href="#" class="icons"><img src="images/whatsapp3.png" alt="sufiacademy" width="32px;"></a>
-                        <a href="#" class="icons"><img src="images/linked2.png" alt="sufiacademy" width="32px;"></a>
-                        <a href="#" class="icons"><img src="images/facebook1.jpeg" alt="sufiacademy" width="32px;"></a>
-                      </td>
-                    </tr>
-                  </table>
-                </td>
-              </tr>
-
-
-
-            </table>
+  <table>
+    <tr>
+      <th>Name</th>
+      <th>Age</th>
+      <th>Level</th>
+    </tr>
+    <tr>
+      <th>Parent-Name</th>
+      <th>Country</th>
+      <th>State</th>
+    </tr>
+    <tr>
+      <th>Lesson</th>
+      <th>Review</th>
+      <th>Islamic</th>
+    </tr>
+    <tr>
+      <td>Pass</td>
+      <td>No</td>
+      <td>Partial</td>
+      
+    </tr>
+    <tr>
+      <td>Quran</td>
+      <td>Review</td>
+      <td>Islamic</td>
+      
+    </tr>
+    </table>
+  <br>
+    <table>
+      <tr>
+        <td style="padding: 20px;">
+          <strong>Name</strong>
+        </td>
+      </tr>
+      <tr>
+        <td style="padding: 0; border-spacing:0;">
+          <table>
+            <tr>
+            <td style="padding: 20px; background-color: red; width: 300px;">
+          Warfa
           </td>
-        </tr>
-        <!--Banner Image-->
-        <tr>
-          <td>
-            <a href="#"><img src="images/banner.jpeg" alt="" width="600" style="max-width:100%;"></a>
+          <td style="padding: 20px; background-color: gold; width: 300px;">
+          Geele
           </td>
-        </tr>
-        <!--Title, Text & Tuition-->
-        <tr>
-          <td style="padding: 5px 0 50px;">
-            <table width="100%">
-              <tr>
-                <td style="text-align:center; padding:15px;">
-
-                  <p style="font-size: 20px; font-weight:bold; color:#ffffff;"> Spring Semester<strong style="color:#289dcf;"> Courses</strong></p>
-                  <p style="font-size: 15px; padding:5px 0 15px; line-height:23px; color:rgb(144, 154, 176);">Lorem ipsum dolor sit amet consectetur adipisicing elit. Error ab neque alias harum, reiciendis velit facere fuga dolorum reprehenderit necessitatibus nostrum, iure nam quaerat sunt praesentium exercitationem maxime porro voluptatem.</p>
-                </td>
-              </tr>
-            </table>
+          </tr>
+        </table>
+        </td>
+      </tr>
+      <tr>
+        <td style="padding: 0; border-spacing:0;">
+          <table>
+            <tr>
+            <td style="padding: 20px; background-color: red; width: 200px;">
+          Warfa
           </td>
-        </tr>
-        <!--Blue Border-->
-        <tr>
-          <td height="2" style="background-color: #a6dbee;"></td>
-        </tr>
-        <!--Three Column Section-->
-        <tr>
-          <td>
-            <table widht="100%">
-              <tr>
-                <table class="three-columns">
-                  <table class="column">
-                    <tr>
-                      <td class="padding">
-                        <table class="content">
-                          <tr>
-                            <td>
-                              <a href="#"><img src="images/online.png" alt="" width="90px" style="max-width: 90px;"></a>
-                            </td>
-                          </tr>
-                          <tr>
-                            <td>
-                              <p style="font-weight: bold; font-size:17px;">Qur'an Classes</p>
-                              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, temporibus aperiam voluptatibus harum eveniet aliquam ea, sint nulla assumenda amet incidunt, eius eaque blanditiis porro nisi. Odio alias unde maiores.</p>
-                            </td>
-                          </tr>
-                        </table>
-                      </td>
-                    </tr>
-                  </table>
-                  <table class="column">
-                    <tr>
-                      <td class="padding">
-                        <table class="content">
-                          <tr>
-                            <td>
-                              <a href="#"><img src="images/online.png" alt="" width="90px" style="max-width: 90px;"></a>
-                            </td>
-                          </tr>
-                          <tr>
-                            <td>
-                              <p style="font-weight: bold; font-size:17px;">Qur'an Classes</p>
-                              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, temporibus aperiam voluptatibus harum eveniet aliquam ea, sint nulla assumenda amet incidunt, eius eaque blanditiis porro nisi. Odio alias unde maiores.</p>
-                            </td>
-                          </tr>
-                        </table>
-                      </td>
-                    </tr>
-                  </table>
-                  
-                  
-                </table>
-              </tr>
-            </table>
+          <td style="padding: 20px; background-color: gold; width: 200px;">
+          Geele
           </td>
-        </tr>
-        <!--Blue Border-->
-        <tr>
-            <td height="2" style="background-color: #a6dbee;"></td>
-        </tr>
-        <!--Two Column Section-->
-        <tr>
-          <td>
-            <table width="100%">
-            </table>
-          </td>
-        </tr>
-        <!--Footer Section-->
-        <tr>
-          <td>
-            <table width="100%">
-
-
-
-            </table>
-          </td>
-        </tr>
-
-      </table>
-
-    </center>
+          <td style="padding: 20px; background-color: gold; width: 200px;">
+            Hakim
+            </td>
+          </tr>
+        </table>
+        </td>
+      </tr>
+          </table>
 </body>
 </html>
