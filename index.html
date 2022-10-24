@@ -4,9 +4,8 @@
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!--<meta name="color-scheme" content="light dark">
+    <meta name="color-scheme" content="light dark">
     <meta name="supported-color-schemes" content="light dark">
-    -->
 	<title>Sufi Academy</title>
     <style type="text/css">
     @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
@@ -24,15 +23,74 @@
     }
 
 		@media screen and (max-width: 599.98px) {
+      .two-columns .padding{
+        padding-right: 0!important;
+        padding-left: 0!important;
+      }
+      img .two-col-img{
+        width: 300px !important;
+        max-width: 300px !important;
+      }
+      .two-third-columns .padding{
+        padding-right: 0!important;
+        padding-left: 0!important;
+      }
+      .two-third-columns .padding.first{
+        padding-bottom: 0!important;
+      }
+      .two-third-columns .padding.last{
+        padding-top: 0!important;
+      }
+      img .one-third-col-img{
+        width: 200px !important;
+        max-width: 200px !important;
+      }
+      two-third-columns .content{
+        text-align: center !important;
+      }
+      img .three-col-img-last{
+        width: 200px !important;
+        max-width: 200px !important;
+      }
+      .three-columns .padding{
+        padding-right: 0 !important;
+        padding-left: 0 !important;
+      }
+      .banner{
+        height: auto !important;
+        padding-top: 40px !important;
+        padding-bottom: 60px !important;
+      }
 
         }
         @media screen and (max-width: 399.98px) {
+          img .three-col-img{
+        width: 200px !important;
+        max-width: 200px !important;
+      }
+      .banner{
+        padding-top: 10px !important;
+        padding-bottom: 40px !important;
+      }
 
         }
 
       /* Custom Dark Mode Colors */
+      :root{
+        color-scheme: light dark;
+        supported-color-schemes: light dark
+      }
 
         @media (prefers-color-scheme: dark) {
+          /*
+          body, center, table{
+            background:#2d2d2d2d !important;
+            color: rgba(16,16,16,255) !important;
+          }
+          
+          .darkmode-transparent{
+            background: transparent !important;
+          }
 
         }
 	</style>
@@ -110,7 +168,7 @@
 
 <!-- START BANNER -->
 <tr>
-  <td background="https://i.ibb.co/p3y9Gcs/banner.jpg" width="600" height="332" style="background-position: center top;">
+  <td class="banner"background="https://i.ibb.co/p3y9Gcs/banner.jpg" width="600" height="332" style="background-position: center top;">
         <!--[if(gte mso 9)|(IE)]>
           <v:rect xmlns:v="urn:schemas-microsoft-com:vml" fill="true" stroke="false" style="width:600px; height:332px;">
             <v:fill type="tile" src="https://i.ibb.co/p3y9Gcs/banner.jpg"/>
@@ -127,23 +185,31 @@
                           <!--[if(gte mso 9)|(IE)]>
                             <td style="padding-top:100px; paddin-bottom:25px;">
                           <![endif]-->
-                          <td align="center" style="font-size:30px; line-height:30px;">
+                          <td align="center" style="font-size:30px; line-height:30px; color:#dde0e1;padding: 1opx 10px 20px 10px; font-weight:bold;">
+                            <p style="font-size:30px; line-height:30px; color:#d26d09;; font-weight:bold;">Qur'an Programm</p>
                             
                           </td>
                           <!--[if(gte mso 9)|(IE)]>
                           </td>
                           <![endif]-->
                       </tr>
-
                     </table>
                   </td>
                 </tr>
-
+                <tr>
+                  <td align="center">
+                    <table class="darkmode-transparent" cellpadding="0" cellspacing="0" role="presentation">
+                      <tr>
+                        <td style="border-radius: 10px;" bgcolor="#eff8fe">
+                          <a href="https://example.com" target="_blank" style="font-size: 17px; font-weight:bold;text-decoration:none;color:#d26d09; background-color: #eff8fe; border: 1px solid #eff8fe; border-radius: 10px; padding: 12px 20px; display: inline-block;">E-Qur'an Course</a>
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
                 </table>
-
             </td>
           </tr>
-
         </table>
         <!--[if(gte mso 9)|(IE)]>
         </v:textbox inset="0,0,0,0">
@@ -155,21 +221,373 @@
 <!-- END BANNER -->
 
 <!-- START TWO COLUMNS -->
+        <tr>
+          <td style="padding: 35px 0 30px 0;">
+          <table width="100%" style="border-spacing: 0;" role="presentation">
+          <tr>
+          <td class="two-columns" style="padding: 0; font-size:0; text-align:center;">
+                  <!--[if(gte mso 9)|(IE)]>
+                  <table width="100%" style="border-spacing: 0;" role="presentation">
+                  <tr>
+                    <td width="00" valign="top" style="padding:0;">
+                    <![endif]-->
+                <!--[if(gte mso 9)|(IE)]>
+                </tr>
+                  </td>
+                  </table>
+            <![endif]-->
+          
+                      <table class="column" style="border-spacing: 0; vertical-align: top; width: 100%; max-width: 300px; display: inline-block;" role="presentation">
+                        <tr>
+                          <td class="padding" style="padding:20px">
+                            <table class="content" style="border-spacing:0; text-align:left;" role="presentation">
+                              <td>
+                                <a href="https://example.com" target="_blank"><img src="https://i.ibb.co/2yt4S5W/pexels-pok-rie-683833-1.jpgs" alt="logo" width="260" style="border: 0;max-width: 260px; border-radius: 8px;"></a>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td style="padding:10px 10px 20px 10px;">
+                                <p style="font-size: 17px; font-weight:bold; line-height: 20px;">Tilawah</p>
+                                <p style="font-size: 15px; line-height: 20px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati harum earum illum sed numquam, facilis aspernatur, laudantium labore dolorum odit ex atque perferendis praesentium eum temporibus incidunt, reprehenderit aut dolorem?</p>
+
+                              </td>
+                            </tr>
+                            <tr>
+                              <td align="left" style="padding-left:10px;">
+                                <table align="left" border="0" cellpaddig="0" style="border-spacing: 0;" role="presentation">
+                                  <tr>
+                                  <td style="border-radius: 10px;" bgcolor="#eff8fe">
+                          <a href="https://example.com" target="_blank" style="font-size: 17px; font-weight:bold;text-decoration:none;color:#d26d09; background-color: #eff8fe; border: 1px solid #eff8fe; border-radius: 10px; padding: 10px 25px; display: inline-block;">Tilawah</a>
+                                </td>
+                                  </tr>
+                                </table>
+                                </td>
+                                </tr>
+                                </table>
+                                </td>
+                                </tr>
+                                </table>
+                                <!--[if(gte mso 9)|(IE)]>
+                                </td><td width="300" valign="top" style="padding:0;">
+                                  <![endif]-->
+                                <table class="column" style="border-spacing: 0; vertical-align: top; width: 100%; max-width: 300px; display: inline-block;" role="presentation">
+                                  <tr>
+                                    <td class="padding" style="padding:20px">
+                                      <table class="content" style="border-spacing:0; text-align:left;" role="presentation">
+                                        <td>
+                                          <a href="https://example.com" target="_blank"><img src="https://i.ibb.co/2qsYs3M/pexels-michael-burrows-7129614.jpg" alt="logo" width="260" style="border: 0;max-width: 260px; border-radius: 8px;"></a>
+                                        </td>
+                                      </tr>
+                                      <tr>
+                                        <td style="padding:10px 10px 20px 10px; line-height: 20px;">
+                                          <p style="font-size: 17px; font-weight:bold; line-height: 20px;">Memorization</p>
+                                          <p style="font-size: 15px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati harum earum illum sed numquam, facilis aspernatur, laudantium labore dolorum odit ex atque perferendis praesentium eum temporibus incidunt, reprehenderit aut dolorem?</p>
+          
+                                        </td>
+                                      </tr>
+                                      <tr>
+                                        <td align="left" style="padding-left:10px;">
+                                          <table align="left" border="0" cellpaddig="0" style="border-spacing: 0;" role="presentation">
+                                            <tr>
+                                            <td style="border-radius: 10px;" bgcolor="#eff8fe">
+                                    <a href="https://example.com" target="_blank" style="font-size: 17px; font-weight:bold;text-decoration:none;color:#d26d09; background-color: #eff8fe; border: 1px solid #eff8fe; border-radius: 10px; padding: 10px 25px; display: inline-block;">Memorization</a>
+                                          </td>
+                                            </tr>
+                                          </table>
+                                          </td>
+                                          </tr>
+                                          </table>
+                                          </td>
+                                          </tr>
+                                          </table>
+                      <!--[if(gte mso 9)|(IE)]>
+                      </td>
+                    </tr>
+                  </table>
+            <![endif]-->
+          </td>
+          </tr>
+          </table>
+          </td>
+          </tr>
 <!-- END TWO COLUMNS -->
 
 <!-- START TWO THIRDS COLUMNS -->
+            <tr>
+              <td style="padding: 10px 0 10px;">
+                <table width="100%" style="border-spacing: 0;" role="presentation">
+                  <tr>
+                  <td class="two-third-olumns" style="padding: 0; font-size:0; text-align:center;background-color:rgba(30,21,15,255);">
+          <!--[if(gte mso 9)|(IE)]>
+          <table width="100%" style="border-spacing: 0;" role="presentation">
+          <tr>
+            <td width="200" valign="top" style="padding:0;">
+            <![endif]-->
+              <table class="column" style="border-spacing: 0; vertical-align: top; width: 100%; max-width: 200px; display: inline-block;" role="presentation">
+                <tr>
+                  <td class="padding first" style="padding:15px 20px 15px 20px; background-color:rgba(30,21,15,255);">
+                    <table class="content" style="border-spacing:0; text-align:center;" role="presentation">
+                      <tr>
+                      <td>
+                        <a href="https://example.com" target="_blank"><img class="one-third-col-img"src="https://i.ibb.co/nq2YhpV/pexels-sitheeque-4002851.jpg" alt="logo" width="160" style="border: 0;max-width: 160px; border-radius: 50%;"></a>
+                      </td>
+                    </tr>
+                  </table>
+                  </td>
+                  </tr>
+                  </table>
+                        <!--[if(gte mso 9)|(IE)]>
+                        </td><td width="400" valign="top" style="padding:0;">
+                          <![endif]-->
+                        <table class="column" style="border-spacing: 0; vertical-align: top; width: 100%; max-width: 400px; display: inline-block;" role="presentation">
+                          <tr>
+                            <td class="padding last" style="padding:30px 10px 15px 10px; background-color:rgba(30,21,15,255);">
+                              <table class="content" style="border-spacing:0; text-align:left;" role="presentation">
+                                <tr>
+                                <td style="vertical-align: middle;background-color:rgba(30,21,15,255);padding: 0 10px 0 10px;">
+                                  <p style="font-size: 15px; letter-spacing:2px; font-weight: 300px; color:#ffffff;"> <q> ipsum dolor sit amet consectetur adipisicing elit. Iure nisi similique nostrum amet. Numquam inventore exercitationem possimus magnam, quae dolorem temporibus cumque eum cupiditate deleniti vero ratione omnis enim cum </q></p>
+                                  <p style="font-size: 13px; letter-spacing:2px; font-weight: 300px; color:#ffffff;">Abdulhakim Sheik</p>
+                                </td>
+                                </tr>
+                                </table>
+                                </td>
+                                </tr>
+                    
+                                  </table>
+              <!--[if(gte mso 9)|(IE)]>
+              </td>
+            </tr>
+          </table>
+    <![endif]-->
+  </td>
+  </tr>
+  </table>
+  </td>
+  </tr>
 <!-- END TWO THIRDS COLUMNS -->
-
 <!-- START THREE COLUMNS -->
+              <tr>
+              <td style="padding: 30px 0 40px 0;">
+                <table width="100%" style="border-spacing: 0;" role="presentation">
+                  <tr>
+                  <td class="third-columns" style="padding: 0; font-size:0; text-align:center;">
+          <!--[if(gte mso 9)|(IE)]>
+          <table width="100%" style="border-spacing: 0;" role="presentation">
+          <tr>
+            <td width="200" valign="top" style="padding:0;">
+            <![endif]-->
+              <table class="column" style="border-spacing: 0; vertical-align: top; width: 100%; max-width: 200px; display: inline-block;" role="presentation">
+                <tr>
+                  <td class="padding" style="padding:15px;">
+                    <table class="content" style="border-spacing:0; text-align:center;" role="presentation">
+                      <tr>
+                      <td>
+                        <a href="https://example.com" target="_blank"><img class="three-col-img" src="https://i.ibb.co/5M1BHY0/pexels-pixabay-270637.jpg" alt="logo" width="150" style="border: 0;max-width: 150px; border-radius: 5px; background-color: rgba(28,138,219,255);"></a>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td style="padding: 10px 10px 20px 10px;">
+                        <p style="font-size: 17px; font-weight:bold;">NEWSLETTER</p>
+                        <p style="font-size: 15px; font-weight:bold;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur, itaque. Illum quaerat non eum fugit sint perspiciatis corporis, et culpa tempora cumque! Officiis corrupti tenetur laudantium in adipisci accusantium a!</p>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td align="center">
+                        <table align="center" border="0" cellpaddig="0" style="border-spacing: 0;" role="presentation">
+                          <tr>
+                          <td style="border-radius: 10px;" bgcolor="#eff8fe">
+                  <a href="https://example.com" target="_blank" style="font-size: 17px; font-weight:bold;text-decoration:none;color:#d26d09; background-color: #dde0e1; border: 1px solid #eff8fe; border-radius: 10px; padding: 8px 10px; display: inline-block;">Learn More..</a>
+                        </td>
+                          </tr>
+                        </table>
+                        </td>
+                        </tr>
+                    </table>
+                      </td>
+                        </tr>
+                        </table>
+                        <!--[if(gte mso 9)|(IE)]>
+                        </td><td width="200" valign="top" style="padding:0;">
+                          <![endif]-->
+                        <table class="column" style="border-spacing: 0; vertical-align: top; width: 100%; max-width: 200px; display: inline-block;" role="presentation">
+                          <tr>
+                            <td class="padding" style="padding:15px;">
+                              <table class="content" style="border-spacing:0; text-align:center;" role="presentation">
+                                <tr>
+                                <td>
+                                  <a href="https://example.com" target="_blank"><img class="three-col-img" src="https://i.ibb.co/5M1BHY0/pexels-pixabay-270637.jpg" alt="logo" width="150" style="border: 0;max-width: 150px; border-radius: 5px; background-color: rgba(28,138,219,255);"></a>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td style="padding: 10px 10px 20px 10px;">
+                                  <p style="font-size: 17px; font-weight:bold;">NEWSLETTER</p>
+                                  <p style="font-size: 15px; font-weight:bold;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur, itaque. Illum quaerat non eum fugit sint perspiciatis corporis, et culpa tempora cumque! Officiis corrupti tenetur laudantium in adipisci accusantium a!</p>
+          
+                                </td>
+                              </tr>
+                              <tr>
+                                <td align="center">
+                                  <table align="center" border="0" cellpaddig="0" style="border-spacing: 0;" role="presentation">
+                                    <tr>
+                                    <td style="border-radius: 10px;" bgcolor="#eff8fe">
+                            <a href="https://example.com" target="_blank" style="font-size: 17px; font-weight:bold;text-decoration:none;color:#d26d09; background-color: #dde0e1; border: 1px solid #eff8fe; border-radius: 10px; padding: 8px 10px; display: inline-block;">Learn More..</a>
+                                  </td>
+                                    </tr>
+                                  </table>
+                                  </td>
+                                  </tr>
+                        </table>
+                        <!--[if(gte mso 9)|(IE)]>
+                        </td><td width="200" valign="top" style="padding:0;">
+                          <![endif]-->
+                        <table class="column" style="border-spacing: 0; vertical-align: top; width: 100%; max-width: 200px; display: inline-block;" role="presentation">
+                          
+                          
+                        </table>
+              <!--[if(gte mso 9)|(IE)]>
+              </td>
+            </tr>
+          </table>
+          <![endif]-->
+              </td>
+              </tr>
+              </table>
+              </td>
+              </tr>
 <!-- END THREE COLUMNS -->
 
 <!-- START FOUR COLUMNS -->
+              <tr>
+              <td style="padding: 0;">
+                <table width="100%" style="border-spacing: 0; background-color: #eaf6fb;" role="presentation">
+                  <tr>
+                    <td height="2" style="background-color: #21c6b8;"></td>
+                  </tr>
+                  <tr>
+                  <td class="fourth-olumns" style="padding: 0; font-size:0; text-align:center;">
+          <!--[if(gte mso 9)|(IE)]>
+          <table width="100%" style="border-spacing: 0;" role="presentation">
+          <tr>
+            <td width="150" valign="top" style="padding:0;">
+            <![endif]-->
+              <table class="column" style="border-spacing: 0; vertical-align: top; width: 100%; max-width: 150px; display: inline-block;" role="presentation">
+                <tr>
+                  <td>
+
+                    <table class="content" style="border-spacing: 0; text-align:center; Margin-left:15px;" role="presentation">
+                      <tr>
+                        <td style="padding: 10px 0 10px 0;">
+                          <a href="https://example.com" target="_blank"><img src="https://i.ibb.co/gmCkZyX/Gmail-Icon.png" alt="" width="50" style="max-width:50px; border-radius:5px"></a>
+                        </td>
+                      </tr>
+
+                    </table>
+                  </td>
+                </tr>
+                
+                        </table>
+                        <!--[if(gte mso 9)|(IE)]>
+                        </td><td width="150" valign="top" style="padding:0;">
+                          <![endif]-->
+                        <table class="column" style="border-spacing: 0; vertical-align: top; width: 100%; max-width: 150px; display: inline-block;" role="presentation">
+                          <tr>
+                            <td>
+          
+                              <table class="content" style="border-spacing: 0; text-align:center; Margin-left:15px;" role="presentation">
+                                <tr>
+                                  <td style="padding: 10px 0 10px 0;">
+                                    <a href="https://example.com" target="_blank"><img src="https://i.ibb.co/gmCkZyX/Gmail-Icon.png" alt="" width="50" style="max-width:50px; border-radius:5px"></a>
+                                  </td>
+                                </tr>
+          
+                              </table>
+                            </td>
+                          </tr>
+                    
+                        </table>
+                        <!--[if(gte mso 9)|(IE)]>
+                        </td><td width="150" valign="top" style="padding:0;">
+                          <![endif]-->
+                        <table class="column" style="border-spacing: 0; vertical-align: top; width: 100%; max-width: 150px; display: inline-block;" role="presentation">
+                          <tr>
+                            <td>
+          
+                              <table class="content" style="border-spacing: 0; text-align:center; Margin-left:15px;" role="presentation">
+                                <tr>
+                                  <td style="padding: 10px 0 10px 0;">
+                                    <a href="https://example.com" target="_blank"><img src="https://i.ibb.co/gmCkZyX/Gmail-Icon.png" alt="" width="50" style="max-width:50px; border-radius:5px"></a>
+                                  </td>
+                                </tr>
+          
+                              </table>
+                            </td>
+                          </tr>
+                        </table>
+                        <!--[if(gte mso 9)|(IE)]>
+                        </td><td width="150" valign="top" style="padding:0;">
+                          <![endif]-->
+                          <table class="column" style="border-spacing: 0; vertical-align: top; width: 100%; max-width: 150px; display: inline-block;" role="presentation">
+                            <tr>
+                              <td>
+            
+                                <table class="content" style="border-spacing: 0; text-align:center; Margin-left:15px;" role="presentation">
+                                  <tr>
+                                    <td style="padding: 10px 0 10px 0;">
+                                      <a href="https://example.com" target="_blank"><img src="https://i.ibb.co/gmCkZyX/Gmail-Icon.png" alt="" width="50" style="max-width:50px; border-radius:5px"></a>
+                                    </td>
+                                  </tr>
+            
+                                </table>
+                              </td>
+                            </tr>
+                    
+                          </table>
+              <!--[if(gte mso 9)|(IE)]>
+              </td>
+            </tr>
+          </table>
+    <![endif]-->
+  </td>
+  </tr>
+  </table>
+  </td>
+  </tr>
 <!-- END FOUR COLUMNS -->
 
 <!-- START GREEN BORDER -->
+<tr>
+  <td style="padding:0">
+    <tab width="100%" style="border-spacing: 0;" role="presentation">
+      <tr>
+        <td height="3" style="background-color:#21c6b8;"></td>
+      </tr>
+    </tab>
+  </td>
+</tr>
 <!-- END GREEN BORDER -->
 
 <!-- START FOOTER -->
+<tr>
+  <td style="padding:0; background-color:#101010;">
+    <tab width="100%" style="border-spacing: 0;" role="presentation">
+
+      <tr>
+        <td style="padding:60px 0 50px 0; color:#ffffff; text-align:center; font-size:16px; background-color: #101010; opacity:1;">
+          <a href="https://example.com" target="_blank"><img src="https://i.ibb.co/CBSC7JN/My-project-1.png" alt="" width="210" style="max-width:210px; border-radius:5px"></a>
+          <p style="font-size: 15px; padding: 10px 0 5px 0;";>E-Qur'an Learning</p>
+          <address style="font-size: 16px; padding-bottom:5px;">123 Street Road, Cit, State, 55555</address>
+          <address style="font-size: 16px; padding-bottom:10px 0 5x 0">email@example.com<a href="mailto:emial@example.com"></a></address>
+          <address style="font-size: 16px; padding-bottom:10px 0 5x 0">800-123-4567<a href="tel:800-123-4567"></a></address>
+          <address style="font-size: 16px;">Subscribe<a href="https::emial@example.com"></a></address>
+        </td>
+      </tr>
+      <tr>
+        <td height="6" style="background-color:#21c6b8;"></td>
+      </tr>
+    </tab>
+
+  </td>
+</tr>
 <!-- END FOOTER -->
     </table>
     <!--[if(gte mso 9)|(IE)]>
